@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Upload</title>
+		<link rel="stylesheet" href="/assets/landing/bootstrap.min.css">
+		<link href="css/dialog.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+
+	<form id="uploadForm" method="POST" enctype="multipart/form-data" data-ng-app="demo">
+
+		<p>
+			<span class="btn btn-success fileinput-button">
+				<i class="glyphicon glyphicon-plus"></i>
+				<span id="dialog_text"></span>
+				<input id="easyupload_input" type="file" name="file">
+			</span>
+		</p>
+
+		<div id="progress" class="progress">
+			<div class="progress-bar progress-bar-primary"></div>
+		</div>
+	</form>
+
+	<script src="/assets/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery.ui.widget.js"></script>
+	<script src="js/jquery.iframe-transport.js"></script>
+	<script src="js/jquery.fileupload.js"></script>
+	<script src="js/dialog.js"></script>
+</body>
+</html>
