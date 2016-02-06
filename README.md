@@ -13,7 +13,7 @@ A tinyMCE plugin to help uploading files to the server. It uses jquery fileuploa
 
 ### Customizing
 #### easyupload_templates
-Override the default templates to show in the tinyMCE editor, passing the parameter 'easyupload_templates' on tinymce.init. The defaults templates are those ones, follow the template and everything should be fine.
+Override the default templates to show in the tinyMCE editor, passing the parameter `easyupload_templates` on tinymce.init. The defaults templates are those ones, follow the template and everything should be fine.
 
 ```javascript
 templates: {
@@ -24,7 +24,7 @@ templates: {
 	}
 ```
 In server's response, the plugin expects the `url` to be sended. 
-If you have a different response from the server, **you have to customize** the templates, adding your response within brackets, like this '{ **your custom url**}'
+If you have a different response from the server, **you have to customize** the templates, adding your response within brackets, like this `{ **your custom url**}`
 
 
 #### Langs
