@@ -32,7 +32,7 @@ Currently there's only `pt_BR` and `en` languages. If you want to add your own l
 
 ### Events
 
-##### easyupload_beforeSend (params: request)
+##### ```easyupload_beforeSend (params: request)```
 Called before the files were uploaded to the server. Receives the `request` as parameter.
 
 ##### easyupload_success (params: event, data)
@@ -41,7 +41,7 @@ Called after the files were uploaded to the server and the request was succesful
 ##### easyupload_fail (params: event, data)
 Called when the upload fails. Called when tried to upload to the server and the request failed. Receives the `event` from jqueryuploader plugin and `data` from jqueryupload as parameters.
 
-#### easyupload_progressall (params: event, data)
+##### easyupload_progressall (params: event, data)
 Called during the upload. Called during the upload files are occurring, used to show a progress bar. Receives the `event` from jqueryuploader plugin and `data` from jqueryupload as parameters.
 
 
