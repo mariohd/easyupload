@@ -1,7 +1,6 @@
 # EasyUploader
 
 A tinyMCE plugin to help uploading files to the server. It uses jquery fileupload to handle the upload to the server. 
----
 
 ## Config
 
@@ -12,7 +11,6 @@ A tinyMCE plugin to help uploading files to the server. It uses jquery fileuploa
 5. Add in the Menu or in the toolbar the plugin, adding 'easyupload' string.
 6. Ready to use!
 
---- 
 ### Customizing
 #### easyupload_templates
 Override the default templates to show in the tinyMCE editor, passing the parameter 'easyupload_templates' on tinymce.init. The defaults templates are those ones, follow the template and everything should be fine.
@@ -32,7 +30,6 @@ If you have a different response from the server, **you have to customize** the 
 #### Langs
 Currently there's only `pt_BR` and `en` languages. If you want to add your own languages, just add the file in the `langs` folder. Use as example one of the currently langs in the project.
 
----
 
 ### Events
 
